@@ -1,0 +1,14 @@
+{
+  "name": "julp",
+  "version": "1.0.0",
+  "description": "A fast gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jack Sharville",
+  "license": "ISC",
+  "devDependencies": {
+    "require-dir": "^0.3.0"
+  }
+}
