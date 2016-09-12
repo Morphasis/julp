@@ -1,5 +1,7 @@
 var gulp = require('gulp');
 
-gulp.task('default', function() {
- console.log('Hello world.');
-});
+gulp.task('default', function (callback) {
+  runSequence(['sass','browserSync', 'watch'],
+    callback
+  )
+})
